@@ -1,0 +1,62 @@
+{
+  "name": "bp-prediction-frontend",
+  "version": "2.0.0",
+  "description": "Advanced Blood Pressure Prediction Tool Frontend",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "axios": "^1.6.0",
+    "tailwindcss": "^3.3.5",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.17.0",
+    "framer-motion": "^10.16.4",
+    "react-dropzone": "^14.2.3",
+    "lodash": "^4.17.21",
+    "date-fns": "^2.30.0",
+    "recharts": "^2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:production": "GENERATE_SOURCEMAP=false react-scripts build",
+    "analyze": "npm run build && npx bundle-analyzer build/static/js/*.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "homepage": ".",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
