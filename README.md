@@ -348,7 +348,7 @@ BPpredictiontool/
 - **CDN integration** for static assets
 - **Database connection pooling**
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -365,18 +365,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - Update documentation for new features
 - Ensure all CI checks pass
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Dataset**: Thanks to the creators of the Blood Pressure Dataset on Kaggle
 - **TensorFlow Team**: For the excellent deep learning framework
 - **React Community**: For the amazing frontend ecosystem
 - **Open Source Contributors**: For various libraries and tools used
 
-## 📚 Scientific References
+##  Scientific References
 
 1. Kurylyak, Y., Lamonaca, F., & Grimaldi, D. (2013). A Neural Network-based method for continuous blood pressure estimation from a PPG signal. *IEEE International Instrumentation and Measurement Technology Conference*.
 
@@ -384,7 +384,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 3. Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. *ICLR 2015*.
 
-## 📞 Support
+##  Support
 
 - **Issues**: [GitHub Issues](https://github.com/aaronseq12/BPpredictiontool/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/aaronseq12/BPpredictiontool/discussions)
