@@ -1,26 +1,25 @@
 # Advanced Blood Pressure Prediction Tool 2.1
 
-[![Build Status](https://github.com/aaronseq12/BPpredictiontool/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/aaronseq12/BPpredictiontool/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![React 18](https://img.shields.io/badge/react-18.0+-61dafb.svg)](https://reactjs.org/)
 
-## 🌟 Overview
+##  Overview
 
 An advanced AI-powered web application that predicts **Arterial Blood Pressure (ABP)** from **Photoplethysmography (PPG)** and **Electrocardiogram (ECG)** signals using state-of-the-art deep learning techniques. The tool features real-time signal quality assessment, interactive visualizations, and a modern responsive web interface.
 
-### ✨ Key Features
+###  Key Features
 
-- 🧠 **Advanced LSTM with Attention Mechanism** - Enhanced prediction accuracy
-- 📊 **Real-time Signal Quality Assessment** - Validates input signal quality
-- 🎨 **Modern Interactive UI** - Responsive design with smooth animations
-- 📈 **Comprehensive Visualizations** - Interactive charts and real-time plotting
-- 🔄 **Advanced Signal Processing** - Noise reduction and filtering algorithms
-- 🚀 **Production-Ready Architecture** - Docker containers, CI/CD, monitoring
-- 📱 **Multi-platform Support** - Works on desktop, tablet, and mobile
-- 🔒 **Secure API** - Input validation, error handling, and structured logging
+-  **Advanced LSTM with Attention Mechanism** - Enhanced prediction accuracy
+-  **Real-time Signal Quality Assessment** - Validates input signal quality
+-  **Modern Interactive UI** - Responsive design with smooth animations
+-  **Comprehensive Visualizations** - Interactive charts and real-time plotting
+-  **Advanced Signal Processing** - Noise reduction and filtering algorithms
+-  **Production-Ready Architecture** - Docker containers, CI/CD, monitoring
+-  **Multi-platform Support** - Works on desktop, tablet, and mobile
+-  **Secure API** - Input validation, error handling, and structured logging
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -33,7 +32,7 @@ An advanced AI-powered web application that predicts **Arterial Blood Pressure (
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -103,7 +102,7 @@ docker-compose up --build
 docker-compose --profile production up
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The model uses the **Blood Pressure Dataset** from Kaggle:
 
@@ -118,7 +117,7 @@ The model uses the **Blood Pressure Dataset** from Kaggle:
 - **Sample rate**: 125 Hz
 - **Sequence length**: 1000 samples (8 seconds)
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Advanced LSTM with Attention
 
@@ -144,7 +143,7 @@ Output(1000, 1) → Predicted ABP waveform
 - **Signal Quality Assessment**: Pre-processing validation
 - **Advanced Filtering**: Noise reduction and artifact removal
 
-## 🎯 Performance Metrics
+##  Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -153,7 +152,7 @@ Output(1000, 1) → Predicted ABP waveform
 | **Correlation Coefficient** | > 0.85 |
 | **Prediction Accuracy (±5mmHg)** | > 90% |
 
-## 🔧 API Documentation
+##  API Documentation
 
 ### Health Check
 ```bash
@@ -188,7 +187,7 @@ Content-Type: application/json
 }
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 ### Modern UI Components
 - **Interactive Signal Visualization** - Real-time plotting with Chart.js
@@ -205,7 +204,7 @@ The tool includes built-in sample data generators for:
 - Hypotensive patterns
 - Arrhythmic patterns
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment (Railway)
 
@@ -247,7 +246,7 @@ The tool includes built-in sample data generators for:
 - **Google Cloud**: Use Cloud Run or App Engine
 - **Azure**: Deploy with App Service
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Tests
 ```bash
@@ -267,7 +266,7 @@ npm test -- --coverage --watchAll=false
 docker-compose -f docker-compose.test.yml up --abort-on-container-exit
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 BPpredictiontool/
@@ -293,7 +292,7 @@ BPpredictiontool/
 └── 📄 README.md               # This file
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Setting up Development Environment
 
@@ -331,7 +330,7 @@ BPpredictiontool/
 3. Run test suite: `npm test` or `pytest`
 4. Submit pull request
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - **Input validation** on all API endpoints
 - **CORS protection** with configurable origins
@@ -340,7 +339,7 @@ BPpredictiontool/
 - **Environment variable** management for secrets
 - **Container security** with non-root users
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 - **Model quantization** for faster inference
 - **Request caching** for repeated predictions
